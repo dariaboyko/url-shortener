@@ -1,0 +1,48 @@
+.background{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.9;
+}
+.window{
+    position: absolute;
+    width: 600px;
+    margin: -200px 0 0 -300px;
+    height: 400px;
+    left: 50%;
+    top:50%;
+    background: #FFFFFF;
+    text-align: center;
+}
+.title{
+    font-family: 'VT323';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    margin: 10px 0 0 0;
+}
+.text{
+    font-family: 'VT323';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 30px 0 0 0;
+}
+.copyButton{
+    width: 100px;
+    height: 50px;
+    background: #37B247;
+    font-family: 'VT323';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    color: #000000;
+    border:0 ;
+    margin: 180px 0 0 0;
+}
+.copyButton:hover{
+    box-shadow: 1px 0 20px #2c8e39;
+}
